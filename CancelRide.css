@@ -1,0 +1,56 @@
+.cancel-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f9fafb;
+}
+
+.cancel-main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.cancel-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #1d4ed8;
+  margin-bottom: 2rem;
+}
+
+.section-subtitle {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 1rem;
+  color: #334155;
+}
+
+.ride-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  justify-content: center;
+}
+
+.ride-card {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 1.2rem;
+  border-radius: 10px;
+  border-left: 5px solid #3b82f6;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.cancel-btn {
+  margin-top: 0.8rem;
+  padding: 8px 12px;
+  background-color: #dc2626;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #b91c1c;
+}
