@@ -13,6 +13,8 @@ import PostRide from './components/PostRide';   // if you place this in componen
 import MyJourney from './components/MyJourney';
 import Profile from './components/Profile';
 import Home from './components/Home';
+import Footer from './components/Footer'; // Ensure you have a Footer component
+import CancelRide from './components/CancelRide';
 
 function App() {
   return (
@@ -26,7 +28,10 @@ function App() {
         <Route path="/post-ride" element={<PostRide />} />
         <Route path="/my-journey" element={<MyJourney />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/cancel-ride" element={<CancelRide />} />
+
       </Routes>
+      <Footer/>
     </Router>
   );
 }
